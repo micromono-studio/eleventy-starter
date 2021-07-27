@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include partials/meta %}
+        {% include partials/head %}
+    </head>
+    <body>
+        {% include partials/nav %}
+        {% include partials/canvas %}
+        <main data-router-wrapper data-scroll-container>
+            {{ content }}
+        </main>
+        {% include partials/scripts %}
+    </body>
+</html>

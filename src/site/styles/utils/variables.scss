@@ -1,0 +1,12 @@
+$color--bg: #f8f8f8;
+$color--text: black;
+
+$font-family--primary: "HelveticaNowDisplay-Md", "Helvetica Neue", sans-serif;
+
+$z--background: -1;
+
+$breakpoints: (
+  "small": 767px,
+  "medium": 992px,
+  "large": 1200px,
+) !default;

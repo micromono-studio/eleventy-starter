@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "HelveticaNowDisplay-Md";
+  font-display: fallback;
+  src: url("/assets/font.woff2") format("woff2"),
+    url("/assets/font.woff") format("woff");
+}
+
+body {
+  font-family: $font-family--primary;
+}

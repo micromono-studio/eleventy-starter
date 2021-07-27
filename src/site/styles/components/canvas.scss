@@ -1,0 +1,4 @@
+.world-container {
+  @include fill-container(fixed);
+  z-index: $z--background;
+}

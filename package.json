@@ -1,0 +1,37 @@
+{
+  "name": "nicklas-2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ELEVENTY_ENV=development npx @11ty/eleventy --serve",
+    "build": "ELEVENTY_ENV=production npx @11ty/eleventy",
+    "serve": "npx serve public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@deanc/esbuild-plugin-postcss": "^1.0.1",
+    "@prismicio/client": "^5.1.0",
+    "autoprefixer": "^10.3.1",
+    "esbuild": "^0.12.15",
+    "esbuild-plugin-alias": "^0.1.2",
+    "esbuild-plugin-glslx": "^0.0.2",
+    "esbuild-plugin-sass": "^0.5.2",
+    "html-minifier": "^4.0.0",
+    "rimraf": "^2.7.1"
+  },
+  "dependencies": {
+    "@dogstudio/highway": "^2.2.1",
+    "@selfaware/martha": "^0.0.11",
+    "choozy": "^1.0.0",
+    "detect-it": "^4.0.1",
+    "gsap": "^3.7.1",
+    "locomotive-scroll": "^4.1.1",
+    "ogl": "^0.0.73",
+    "picoapp": "^3.6.2",
+    "quicklink": "^2.2.0"
+  }
+}

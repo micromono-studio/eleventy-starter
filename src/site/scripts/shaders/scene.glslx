@@ -1,0 +1,15 @@
+precision highp float;
+attribute vec2 uv;
+attribute vec2 position;
+uniform float uTime;
+varying vec2 vUv;
+
+export void fragment() {
+    gl_FragColor.rgb = vec3(0.8, 0.7, 1.0) + 0.3 * cos(vUv.xyx + uTime);
+    gl_FragColor.a = 1.0;
+}
+
+export void vertex() {
+    vUv = uv;
+    gl_Position = vec4(position, 0, 1);
+}
